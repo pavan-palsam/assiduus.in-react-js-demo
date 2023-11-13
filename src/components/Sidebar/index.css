@@ -1,0 +1,31 @@
+.sidebar-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start; /* Center both icon and label horizontally */
+    align-items: center; /* Center both icon and label vertically */
+    width: 15vw;
+    height: 50px;
+    cursor: pointer;
+  }
+  
+  
+.sidebar-second-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.active{
+    background-color: #13d66b;
+    color: white;
+}

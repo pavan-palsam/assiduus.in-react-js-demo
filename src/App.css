@@ -1,5 +1,16 @@
 .App {
-  text-align: center;
+  
+  height: 100vh;
+  background-color: white;
+  /* border: 5px solid black; */
+  border-radius: 2rem;
+  padding: 5px;
+}
+
+.background{
+  background-color: black;
+  height: 100vh;
+  overflow: hidden;
 }
 
 .App-logo {
